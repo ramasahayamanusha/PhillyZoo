@@ -1,7 +1,20 @@
 package com.philly.zoo.wild.animal;
 
 public class Fox extends WildAnimal{
+	
+
+	private String color;
+	private int age;
+	
 	  
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
 	boolean isCunning(){
 	return true;
 	}
@@ -22,6 +35,14 @@ public class Fox extends WildAnimal{
 
 	public int getLegs() {
 		return 4;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int i) {
+		this.age=age;
 	}
 	
 
